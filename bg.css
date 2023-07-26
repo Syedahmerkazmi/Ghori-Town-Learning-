@@ -1,0 +1,387 @@
+
+.bg
+{
+    background-image: url('https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881321.jpg?t=st=1690220722~exp=1690221322~hmac=d4fa3d53f85ae1bceceff8297ff6299c49c69b7e4eac4db34e68273977864fe4');
+    height: auto !important;
+    /* background-size: cover; */
+
+}
+.yp
+{
+  width: 100%;
+}
+.heading
+{
+    color: white;
+}
+.paragraph
+{
+    color: white;
+    word-spacing: 1px;
+    border: 1px solid white ;
+     
+}
+#yellow
+{
+    width: 20%;
+}
+.yelow
+{
+    /* box-shadow: 0px 200px rgb(190, 188, 188); */
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 700px)  {
+    .yelow
+    {
+       width: 100%;
+      
+       /* box-shadow: 1px 250px rgb(150, 147, 147); */
+       padding: 0%;
+       margin: 0%;
+       left: 0%;
+    }
+    .bg{
+        height: auto;
+    }
+  }
+
+  /* .moutains
+  {
+    position: relative;
+   
+  }
+  #left
+  {
+    position: absolute;
+    bottom: 1px;
+    left: 2%;
+    color: black;
+  }
+
+
+  @media screen and (max-width: 700px)
+  {
+    .moutains
+    {
+        display:inline-block;
+        position: static;
+        width: 100%;
+    }
+    
+  } */
+
+  .bg-2
+  {
+    background-image: url('/22.jpg');
+   margin-top: 2%;
+   background-attachment: fixed;
+    height: 200vh;
+    background-repeat: no-repeat;
+  }
+  .bg-3
+  {
+    background-image: url('/plant.jpg');
+    height: 100vh;
+    padding-top: 22%;
+
+  }
+  #heading-one
+  {
+    color: white;
+    font-size:50px;
+    border: 2px solid white ;
+    text-shadow: 2px 2px black;
+    border-radius: 2px; 
+    display: inline-block;
+    margin-top: 5%;
+  }
+  .p
+  {
+    color: white;
+   
+  }
+  
+
+  @media screen and (min-width: 701px)
+  {
+    #heading-one
+    {
+     display: block;
+     
+    }
+    .yp
+    {
+      width: 100%;
+    
+      
+    
+    }
+    .bg{
+      height: auto;
+  }
+  }
+
+  
+  @media screen  and (min-width:991px){
+    .yelow
+    {
+    width: 100%;
+    } 
+    .bg
+    {
+      height: auto !important;
+    }
+    
+  }
+
+  @media screen and (max-width:990px) 
+  {
+    .bg
+    {
+      height: auto !important;
+    }
+    
+  }
+
+ 
+  #google
+  {
+    margin-top: 20%;
+  }
+
+
+  @media screen and (max-width: 991px)   {
+    .yelow
+    {
+       width: 122% !important;
+      
+       /* box-shadow: 1px 250px rgb(150, 147, 147); */
+       padding: 0%;
+       margin: 0%;
+       left: 0%;
+    }
+    .bg{
+        height: auto !important;
+    }
+  }
+
+
+  @media screen and (max-width: 767px)   {
+    .yelow
+    {
+       width: 100% !important;
+      
+       /* box-shadow: 1px 250px rgb(150, 147, 147); */
+       padding: 0%;
+       margin: 0%;
+       left: 0%;
+    }
+    .bg{
+        height: auto;
+    }
+  }
+
+  @media screen and (min-width:992px) and (max-width:1199px){
+    .bg{
+        height: auto !important;
+    }
+    
+  }
+
+  @media screen and (max-width:992px)
+  {
+  #google
+  {
+    display: block !important;
+   
+    
+    
+  }  
+ .google-three
+ {
+  display: inline-block !important;
+ justify-content: center !important;
+ width: 300px !important;
+ }
+
+ 
+  }
+
+
+  @media screen and (max-width:607px) {
+    .google-three
+    {
+      margin-top: 5% !important;
+    }
+  }
+
+  @media screen and (max-width:414px) {
+    .yelow
+    {
+      box-shadow: none !important;
+    }
+    
+    
+    
+  }
+
+ 
+  .foot
+  {
+    background-color: black !important;
+    height: auto ;
+    background-size: cover !important;
+    margin-top: 15%;
+    padding: 0%;
+  }
+  .email
+  {
+    color: white;
+    
+    background-color: rgb(43, 42, 42) !important;
+   background-size: cover !important;
+   padding: 1%;
+   margin: 0%;
+    height: 9vh;
+    
+  }
+.he
+{
+  margin-left: 2%;
+  border: none;
+
+}
+.week
+{
+  color: rgb(207, 202, 202);
+
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+#m
+{
+  margin-top: 8%;
+}
+.one-two
+{
+  margin-top: 5%;
+ font-size: 200%;
+ color: rgb(93, 93, 192);
+ 
+}
+.fa-facebook:hover
+{
+  opacity: 0.6;
+}
+
+.fa-instagram:hover
+{
+  opacity: 0.6;
+}
+
+
+.fa-whatsapp:hover
+{
+  opacity: 0.6;
+}
+
+
+.fa-skype:hover
+{
+  opacity: 0.6;
+}
+
+
+.fa-pinterest:hover
+{
+  opacity: 0.6;
+}
+
+.fa-pinterest:hover
+{
+  opacity: 0.6;
+}
+
+
+.fa-twitter:hover
+{
+  opacity: 0.6;
+}
+.fa-linkedin:hover
+{
+  opacity: 0.6;
+}
+.copy
+{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width:1374px)
+ {
+ .foot{
+  height: auto;
+  background-size: cover !important;
+
+ } 
+}
+
+/* @media screen and(max-width:375px) {
+  .bg{
+    height: 900vh;
+    display: none !important;
+  }
+}
+@media screen and(min-width:991px) {
+ .yp{
+  display: none !important;
+ }
+} */
+
+@media screen and(max-width:325px)
+ {
+  body {
+    display: none !important;
+  }
+  .yp
+  {
+    display: none !important;
+  }
+}
+
+@media only  screen and (min-width:768px) and (max-width:991px)  {
+  .yp
+  {
+   width: 120%;
+  }
+}
+
+
+@media only  screen and (min-width:280px)  and (max-width:360px)
+ {
+  .navbar
+  {
+    width: 108%;
+  }
+  .bg
+  {
+    width: 108%;
+  
+  }
+  .foot
+  {
+    width: 108%;
+
+  }
+  .google-two
+  {
+    width: 100%;
+  }
+  .active
+  {
+    width: 100%;
+  }
+}
