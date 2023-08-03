@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Accordion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/accordion.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class=" py-3">Hello Accordion</h2>
+        <div class="row py-3 justify-content-center">
+            <div class="col-md-7">
+                <div class="panel-group" id="accordion">
+
+                    <!-- First Accordion Item -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <div class="row">
+                                    
+                                    <div class="col-md-11 col-sm-11">
+                                    <!-- <button class=" btn  btn-danger" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> -->
+                                       Heading 1
+                                        <!-- : <ii class=" fa fa-plus"></i> -->
+                                          
+
+                                    </div>
+                                    <div class="col-md-1 col-sm-1">
+                                        <a  data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
+                                            <i class="fa fa-plus" onclick="chnage(this)"></i>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse ">
+                            <div class="panel-body">
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis modi enim laboriosam.
+                               <img class="im" src="https://www.thesun.co.uk/wp-content/uploads/2023/07/2023-weeklong-wildfire-greek-resort-833913619-1.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Accordion Item -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <div class="row">
+                                    <!-- <div class="col-md-4">
+                                        Click Here
+                                    </div>
+                                    <div class="col-md-4">
+                                    <i class=" fa fa-plus " data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> </i>
+                                
+
+                                    </div> -->
+                                    <div class="col-md-11 col-sm-11">
+
+                                        <!-- <button class=" btn  btn-danger" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> -->
+                                            Heading 2
+                                            <!-- : <ii class=" fa fa-plus"></i> -->
+                                    </div>
+                                    <div class="col-md-1 col-sm-1">
+                                        <a  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> 
+                                            <i class="fa fa-plus" onclick="chnage(this)"></i>
+                                        </a>
+                                    </div>
+
+                                    
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                               ipsum dolor sit. ipsum. ipsum dolor sit amet.ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptates eos reiciendis ea blanditiis amet architecto rem laboriosam aliquam obcaecati.
+                               <img class="im" src="https://avatars.mds.yandex.net/i?id=d05f6cf0db38c5a602fa7536970daf7259b58bda-8375627-images-thumbs&n=13" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third Accordion Item -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">    
+                                <div class="row">
+                                    <!-- <div class="col-md-4">
+                                        Click Here
+                                    </div>
+                                    <div class="col-md-4">
+                                    <i class=" fa fa-plus" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> </i>
+                                
+
+                                    </div> -->
+
+                                    
+                                    <div class="col-md-11 col-sm-11 col-xm-6">
+                                        <!-- <button class=" btn  btn-danger" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> -->
+                                            Heading 3
+                                            <!-- : <ii class=" fa fa-plus"></i> -->
+
+                                            </div>
+                                            <div class="col-md-1  col-sm-1 col-xm-6">
+                                                <a  data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> 
+                                                    <i class="fa fa-plus" onclick="chnage(this)" id="h"></i>
+                                                </a>
+                                            </div>
+        
+                                            
+                                    </h4>
+
+                    
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit in molestiae ullam hic neque, totam voluptates! Itaque, repudiandae! Obcaecati nam deleniti veritatis ipsum iure veniam quam odit officia similique laborum.
+                               <img class="im" src="https://s1.1zoom.me/big7/367/Lake_Mountains_Sunrises_433183.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+                <!-- <button class="btn btn-primary " data-toggle="collapse" data-target=".a">Click Me </button> -->
+                <!-- <div class="collapse a">    -->
+                    <!-- collapase (jb b refresh kein gein to collapase ki wajha sy ya part hidden rhy gah then jb button py click krein gein to show hoga ) -->
+                <!-- <div class="card card-body"> -->
+                    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ducimus porro aut a consequuntur neque officia, nam assumenda dicta amet? -->
+                <!-- </div> -->
+
+
+                
+                <!-- card-body k andr content hoga -->
+     
+
+    <!-- <div class="container mb-10">
+        <div class="row">
+            <div class="col-md-7">
+                <button class="btn btn-primary" data-toggle="collapse" data-target="#h"> hello</button>
+                <div id="h" class="collapse">
+                    <div class="card card-body" >
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio qui corporis rerum.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script>
+        function chnage(x)
+        {
+            x.classList.toggle("fa-minus");
+
+        }
+  
+    </script>
+</body>
+</html>

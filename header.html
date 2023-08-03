@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>   
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/header.css">
+</head>
+<body>
+    
+    <div class="navbar" style="display: inline-block;">
+
+        <div class="dropdown h">
+            <button class="dropbtn home " >Home
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content c">
+
+                <a href="#"><i class="fa fa-newspaper-o"></i>  Main Menu </a>
+                <a href="#"><i class="fa fa-group"></i>  About us</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown h">
+            <button class="dropbtn contact">Contact us
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content c">
+
+                <a href="#"><i class="fa fa-envelope"></i>  Email</a>
+                <a href="#"><i class="fa fa-phone"></i>  Phone Number</a>
+            </div>
+        </div>
+
+
+
+        <div class="dropdown h">
+            <button class="dropbtn register">Register
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content c">
+
+                <a href="#"><i class="fa fa-users"></i>  Signup</a>
+                <a href="#"><i class="fa fa-user"></i>   Login</a>
+            </div>
+        </div>
+  
+
+
+
+    
+
+        <div class="dropdown" onclick="return ab()">
+            <button class="dropbtn home" >Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content"  id="hello">
+
+                <a href="#"><i class="fa fa-desktop"></i>  Front-End Services </a>
+                <a href="#"><i class="fa fa-chrome"></i>     Back-End Services</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown"  onclick="return portfolio()">
+            <button class="dropbtn contact">Portfolio
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="email">
+                <a href="#"><i class="fa fa-envelope"></i>  Email</a>
+                <a href="#"><i class="fa fa-phone"></i>     Phone Number</a>
+            </div>
+        </div>
+
+
+
+        <div class="dropdown" onclick="return social()">
+            <button class="dropbtn register">Social Media
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content"  id="media">
+
+                <a href="#"> <i class="fa fa-facebook"></i>  Facbook </a>
+                <a href="#"> <i class="fa fa-linkedin"></i> Linkedin </a>
+
+            </div>
+        </div>
+    </div>
+
+
+<script>
+     function ab() {
+            var a = document.getElementById("hello");
+            if (a.style.display === "block") {
+                a.style.display = "none";
+            } else {
+                a.style.display = "block";
+            }
+        }
+
+        function social() {
+            var a = document.getElementById("media");
+            if (a.style.display === "block") {
+                a.style.display = "none";
+            } else {
+                a.style.display = "block";
+            }
+        }
+
+
+        function portfolio() {
+            var a = document.getElementById("email");
+            if (a.style.display === "block") {
+                a.style.display = "none";
+            } else {
+                a.style.display = "block";
+            }
+        }
+</script>
+ 
+</body>
+</html>
